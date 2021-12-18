@@ -6,32 +6,52 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sqiud</title>
 
-```markdown
-Syntax highlighted code block
+    <style>
+        body{margin: 0;padding: 0}
+        .container   {
+            background-color: rgb(33, 36, 41);
+            height: 100vh;
+            display: flex;justify-content: center;align-items: center;
+        }
+        .circle {
+            border: 6px solid rgb(255, 56, 56);
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+        }
 
-# Header 1
-## Header 2
-### Header 3
+        .tra {
+            border-width: 100px;
+            border-style: solid;
+            transform: translateY(-106px);
+            border-color:transparent transparent rgb(255, 56, 56) transparent ;
+        }
 
-- Bulleted
-- List
+        .square {
+            transform: translateY(-90px);
+            border: 6px solid rgb(255, 56, 56);
+            height: 200px; width: 200px;
+        }
+    </style>
 
-1. Numbered
-2. List
+</head>
+<body>
+    
+    <div class="container">
+        <div class="gather">
+            <div class="circle"></div>
+            <div class="tra"></div> 
+            <div class="square"></div>
+        </div>
+    </div>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/idrilogic/idri-squid/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
